@@ -1,0 +1,18 @@
+
+<hr>
+<h1>Conditional Statement</h1>
+<h5>URL: http://127.0.0.1:5000/user/name</h5>
+<h5>if name == 'john'>> Hello John</h5>
+<h5>else >> Hello Stranger</h5>
+<h5>Result:</h5>
+{% if HTMLname == 'john' %}
+<h2>Hello, {{ name }}!</h2>
+{% else %}
+<h2>Hello, Stranger!</h2>
+{% endif %}
+<hr>
+<h5>Jinja2 Variable Filter</h5>
+<h5>Hello, {{ name }}!</h5>
+<h5>Hello, {{ name|upper }}!</h5>
+<h5>Hello, {{ name|lower }}!</h5>
+<h5>Hello, {{ name|capitalize }}!</h5>
